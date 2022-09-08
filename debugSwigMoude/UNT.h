@@ -2,6 +2,8 @@
 #include "windows.h"  
 #include <iostream>  
 #include <string>  
+#include <locale.h> 
+
 using namespace std;
 
 //**************string******************//  
@@ -14,3 +16,7 @@ string  UnicodeToUtf8(const wstring& wstr);
 // ASCII与UTF8互转  
 string  AsciiToUtf8(const string& str);
 string  Utf8ToAscii(const string& str);
+// string转wstring
+std::wstring StringToWstring(const std::string str);
+// wstring转string
+std::string WstringToString(const std::wstring str);
