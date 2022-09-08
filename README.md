@@ -1,0 +1,2 @@
+# VsDebugSwigPython
+在vs项目中调试swig生成的python模块
